@@ -1,0 +1,41 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.button {
+    padding: 10px;
+    background-color: #1976d2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:disabled {
+    background-color: #90caf9;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #d32f2f;
+    font-size: 14px;
+}
+
+.info {
+    font-size: 14px;
+    color: #757575;
+}
