@@ -23,11 +23,11 @@
 }
 
 .icon {
-    color: #1976d2;
+    color: #3a94ee;
 }
 
 .button {
-    background-color: #d32f2f;
+    background-color: #3a94ee;
     color: white;
     border: none;
     padding: 8px 12px;
@@ -37,5 +37,5 @@
 }
 
 .button:hover {
-    background-color: #b71c1c;
+    background-color: #3a94ee;
 }
