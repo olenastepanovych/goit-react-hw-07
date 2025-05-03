@@ -17,18 +17,15 @@
 
 .button {
     padding: 10px;
-    background-color: #1976d2;
+    background-color: teal;
     color: white;
     border: none;
     border-radius: 6px;
     cursor: pointer;
     transition: background-color 0.3s;
+
 }
 
-.button:disabled {
-    background-color: #90caf9;
-    cursor: not-allowed;
-}
 
 .error {
     color: #d32f2f;
